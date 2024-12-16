@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 211, 154);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+body form p{
+    font-size: 20px;
+    color: rgb(135, 135, 135);
+}
+
+body form input{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+body form input:focus{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+body form #errorMessage{
+    font-size: 15px;
+    color: red;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+body form button{
+    background-color: rgb(164, 94, 94);
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px rgb(70, 39, 39) solid;
+}
+
+body form button:hover{
+    background-color: rgb(187, 41, 41);
+    cursor: pointer;
+}
+
+/* country box */
+
+body #countryBox{
+    background-color: rgb(58, 58, 58);
+    margin-top: 20px;
+    min-width: 400px;
+    height: 60%;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    opacity: 0;
+    transition: 1s;
+}
+
+body #countryBox #flag{
+    /* background-color: aliceblue; */
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 1S;
+}
+body #countryBox #name{
+    /* background-color: aliceblue; */
+    /* width: 10%;
+    height: 10%; */
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: 1S;
+}
+body #countryBox #capital{
+    /* background-color: aliceblue; */
+    /* width: 10%;
+    height: 10%; */
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: 1S;
+}
+body #countryBox #language{
+    /* background-color: aliceblue; */
+    /* width: 10%;
+    height: 10%; */
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+    opacity: 0;
+    transition: 1S;
+}
+body #countryBox #region{
+    /* background-color: aliceblue; */
+    /* width: 10%;
+    height: 10%; */
+    color: rgb(174, 174, 174);
+    font-size: 20px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: 1S;
+}
+body #countryBox #subregion{
+    /* background-color: aliceblue; */
+    /* width: 10%;
+    height: 10%; */
+    color: rgb(174, 174, 174);
+    font-size: 20px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: 1S;
+}
+body #countryBox #population{
+    /* background-color: aliceblue; */
+    /* width: 10%;
+    height: 10%; */
+    color: rgb(174, 174, 174);
+    font-size: 20px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: 1S;
+}
+body #countryBox #currency{
+    /* background-color: aliceblue; */
+    /* width: 10%;
+    height: 10%; */
+    color: rgb(174, 174, 174);
+    font-size: 20px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: 1S;
+}
